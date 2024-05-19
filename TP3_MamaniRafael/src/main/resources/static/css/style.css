@@ -1,48 +1,50 @@
 @charset "UTF-8";
-encabezado {
-    background-color: #f0f0f0;
+#encabezado {
+    background-color: rgb(192, 192, 192);
     font-family: Arial, sans-serif;
     /* Otras propiedades... */
 }
-menu-navegacion {
+.menu-navegacion{
     display: flex;
+    background-color: rgb(0, 0, 255);
     /* Otras propiedades... */
 }
-enlace-menu {
+.enlace-menu{
     color: #0074d9;
     /* Otras propiedades... */
 }
-contenido-principal {
+.contenido-principal {
     padding: 20px;
+    color: #0074d9;
     /* Otras propiedades... */
 }
-seccion-contenido {
+.seccion-contenido {
     border: 1px solid #ddd;
     /* Otras propiedades... */
 }
-titulo-seccion {
+.titulo-seccion {
     font-size: 24px;
     /* Otras propiedades... */
 }
-contenido-seccion {
+.contenido-seccion {
     line-height: 1.5;
     /* Otras propiedades... */
 }
-contenido-adicional {
+.contenido-adicional {
     float: right;
     /* Otras propiedades... */
 }
-enlace-adicional,
-imagen-adicional {
+.enlace-adicional,
+.imagen-adicional {
      width: 100%;
      height: auto;
 }
-mi-pie-de-pagina {
-    background-color: #333;
+#mi-pie-de-pagina {
+    background-color: rgb(0, 0, 255);
     color: #fff;
     /* Otras propiedades... */
 }
-enlace-pie {
+#enlace-pie {
     text-decoration: none;
     /* Otras propiedades... */
 }
