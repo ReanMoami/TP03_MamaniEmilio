@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+<h1>Mi Página Web</h1>
+        <nav>
+            <a href="#seccion1">Sección 1</a>
+            <a href="#seccion2">Sección 2</a>
+            <a href="#seccion3">Sección 3</a>
+        </nav>
+</header>
+	 <h1>Registro de Usuario</h1>
+    <form>
+        <label for="dni">DNI (numérico):</label>
+        <input type="number" id="dni" name="dni" required><br>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+
+        <label>Género:</label>
+        <input type="radio" id="genero" name="genero" value="femenino" required><br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="gnero" name="genero" value="masculino"><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="genero" name="genero" value="x"><br>
+        <label for="x">X</label>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required><br>
+
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia" required><br>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Córdoba">Córdoba</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Entre Ríos">Entre Ríos</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Neuquén">Neuquén</option>
+            <option value="Río Negro">Río Negro</option>
+            <option value="Salta">Salta</option>
+            <option value="San Juan">San Juan</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+            <option value="Tucumán">Tucumán</option>
+        </select><br>
+
+        <label for="telefono">Número de teléfono celular:</label>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label>Categorías de interés:</label><br>
+        <input type="checkbox" id="deportes" name="interes[]" value="deportes">
+        <label for="deportes">Deportes</label><br>
+        <input type="checkbox" id="tecnologia" name="interes[]" value="tecnologia">
+        <label for="tecnologia">Tecnología</label><br>
+
+        <label for="sugerencias">Sugerencias para la empresa:</label><br>
+        <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br>
+        <label for="password">Reingrese la Contraseña:</label>
+        <input type="password" id="repassword" name="repassword" required><br>
+
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto los términos y condiciones</label><br>
+
+        <input type="checkbox" id="info_empresa" name="info_empresa">
+        <label for="info_empresa">Acepto recibir información relativa a la empresa</label>><br><meta charset="UTF-8">
+
+        <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>

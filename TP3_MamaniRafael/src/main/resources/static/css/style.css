@@ -1,0 +1,48 @@
+@charset "UTF-8";
+mi-encabezado {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    /* Otras propiedades... */
+}
+menu-navegacion {
+    display: flex;
+    /* Otras propiedades... */
+}
+enlace-menu {
+    color: #0074d9;
+    /* Otras propiedades... */
+}
+contenido-principal {
+    padding: 20px;
+    /* Otras propiedades... */
+}
+seccion-contenido {
+    border: 1px solid #ddd;
+    /* Otras propiedades... */
+}
+titulo-seccion {
+    font-size: 24px;
+    /* Otras propiedades... */
+}
+contenido-seccion {
+    line-height: 1.5;
+    /* Otras propiedades... */
+}
+contenido-adicional {
+    float: right;
+    /* Otras propiedades... */
+}
+enlace-adicional,
+imagen-adicional {
+     width: 100%;
+     height: auto;
+}
+mi-pie-de-pagina {
+    background-color: #333;
+    color: #fff;
+    /* Otras propiedades... */
+}
+enlace-pie {
+    text-decoration: none;
+    /* Otras propiedades... */
+}
