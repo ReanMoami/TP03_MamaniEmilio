@@ -3,14 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="../static/css/estilos.css">
 </head>
 <body>
-<header>
+<header id="encabezado">
 <h1>Mi Página Web</h1>
-        <nav>
-            <a href="#seccion1">Sección 1</a>
-            <a href="#seccion2">Sección 2</a>
-            <a href="#seccion3">Sección 3</a>
+        <nav class="menu-navegacion">
+            <a href="#seccion1" class="enlace-menu">Sección 1</a>
+            <a href="#seccion2" class="enlace-menu">Sección 2</a>
+            <a href="#seccion3" class="enlace-menu">Sección 3</a>
         </nav>
 </header>
 	 <h1>Registro de Usuario</h1>
@@ -90,9 +91,14 @@
         <label for="terminos">Acepto los términos y condiciones</label><br>
 
         <input type="checkbox" id="info_empresa" name="info_empresa">
-        <label for="info_empresa">Acepto recibir información relativa a la empresa</label>><br><meta charset="UTF-8">
-
+        <label for="info_empresa">Acepto recibir información relativa a la empresa</label>><br>
         <input type="submit" value="Registrarse">
     </form>
+    <footer id="mi-pie-de-pagina">
+        <p>Contacto: correo@example.com</p>
+        <p>Sígueme en redes sociales:</p>
+        <a href="https://twitter.com/miusuario">Twitter</a>
+        <a href="https://facebook.com/mipagina">Facebook</a>
+    </footer>
 </body>
 </html>
